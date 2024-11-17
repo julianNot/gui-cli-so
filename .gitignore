@@ -1,0 +1,52 @@
+# Directorios de compilación
+bin/
+obj/
+
+# Archivos compilados
+*.o
+*.out
+*.exe
+myshell
+
+# Archivos de respaldo del sistema
+*~
+.DS_Store
+
+# Archivos de respaldo de editores
+.vscode/
+.idea/
+*.swp
+*.swo
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de dependencias
+compile_commands.json
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+
+# Archivos de debug
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Archivos temporales
+*.log
+*.tmp
+temp/
+
+# Archivos de configuración local
+.env
+*.local
+
+# Archivos específicos del sistema operativo
+Thumbs.db
+.directory
+
+# Archivos de test que no deberían subirse
+test_*
